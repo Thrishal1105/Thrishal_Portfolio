@@ -58,14 +58,20 @@ export const About: React.FC = () => {
 
       <h3 className="text-2xl font-bold mb-8 mt-8">GitHub <span className="text-neon-green">Stats</span></h3>
       <div className="flex flex-col xl:flex-row gap-6 pb-8">
-        <img 
-          src="https://github-readme-stats.vercel.app/api?username=thrishal1105&show_icons=true&hide_border=true&bg_color=263240&title_color=00C853&icon_color=00C853&text_color=cbd5e1"
-          alt="thrishal1105 GitHub Stats"
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Thrishal1105&theme=dark&hide_border=true&background=112240&ring=00C853&fire=00C853&currStreakLabel=00C853"
+          alt="Thrishal1105 GitHub Streak"
           loading="lazy"
           decoding="async"
           className="h-auto w-full md:w-auto rounded-xl border border-white/5 shadow-lg"
         />
-       
+        {/* <img
+          src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Thrishal1105&theme=dark"
+          alt="Thrishal1105 GitHub Profile Details"
+          loading="lazy"
+          decoding="async"
+          className="h-auto w-full md:w-auto rounded-xl border border-white/5 shadow-lg"
+        /> */}
       </div>
     </div>
   );
