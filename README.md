@@ -1,1 +1,1 @@
-![image alt](https://res.cloudinary.com/dalmvzwgj/image/upload/v1768216885/Screenshot_2026-01-12_164910_v7kknt.png)
+![image alt](https://res.cloudinary.com/dalmvzwgj/image/upload/v1768218284/Screenshot_2026-01-12_164910_gucqbl.png)
