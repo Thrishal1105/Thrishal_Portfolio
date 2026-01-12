@@ -4,6 +4,15 @@ import { Project, Experience, Education, SkillCategory, Achievement } from './ty
 export const PROJECTS: Project[] = [
   {
     id: 1,
+    title: "Sales Forecasting of Overrated Products",
+    category: "Data Science",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1768214264/Gemini_Generated_Image_grx3vugrx3vugrx3_nu6eaa.png",
+    description: "AI system that corrects biased ratings with NLP and improves demand forecasting via ML models in a Streamlit dashboard.",
+    githubLink: "https://github.com/Thrishal1105/Sales-Forecasting-of-Overrated-Products.git",
+    // previewLink: "https://huggingface.co/spaces/Thrishal/sales-overrated-product-forecasting"
+  },
+  {
+    id: 2,
     title: "Bus Tracking System",
     category: "IOT",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763902026/Gemini_Generated_Image_5jv8dh5jv8dh5jv8_yt5lpc.png",
@@ -12,7 +21,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://bus-tracker-deploy.vercel.app/"
   },
   {
-    id: 7,
+    id: 3,
     title: "RAG Model Offline",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765953168/Gemini_Generated_Image_91g5ud91g5ud91g5_xchukt.png",
@@ -20,7 +29,7 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/RAG_Model_Offline.git"
   },
   {
-    id: 2,
+    id: 4,
     title: "Interior Design",
     category: "Web Development",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765012455/unnamed_cqewdc.jpg",
@@ -29,7 +38,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://interior-aesthetics.vercel.app/"
   },
   {
-    id: 3,
+    id: 5,
     title: "AI-Post Generator",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904435/Gemini_Generated_Image_6okz46okz46okz46_eladzn.png",
@@ -38,7 +47,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://aistudio.google.com/apps/drive/1U5QmYg-Ax-DyDyty4Yd2pPanGkYV-Vo7?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
   {
-    id: 4,
+    id: 6,
     title: "Virtual Clothes Try On AI",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904434/Gemini_Generated_Image_919bvt919bvt919b_ivyklm.png",
@@ -47,7 +56,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://aistudio.google.com/apps/drive/1RMjtPqmScfw6euCCknWUyWPMdswNrwIM?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
   {
-    id: 5,
+    id: 7,
     title: "Stock Prediction",
     category: "Machine Learning",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904442/Gemini_Generated_Image_32il3z32il3z32il_vepboq.png",
@@ -55,7 +64,7 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/Stock-Prediction.git"
   },
   {
-    id: 6,
+    id: 8,
     title: "HR Data Analytics Dashboard",
     category: "Data Analysis",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904434/Gemini_Generated_Image_d7ehqxd7ehqxd7eh_lcz1dx.png",
@@ -63,7 +72,7 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/HR-Data-Analytics-Dashboard.git"
   },
   {
-    id: 8,
+    id: 9,
     title: "AI Automation",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765960852/OIP_roeyag.webp",
