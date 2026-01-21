@@ -9,7 +9,7 @@ export const PROJECTS: Project[] = [
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1768214264/Gemini_Generated_Image_grx3vugrx3vugrx3_nu6eaa.png",
     description: "AI system that corrects biased ratings with NLP and improves demand forecasting via ML models in a Streamlit dashboard.",
     githubLink: "https://github.com/Thrishal1105/Sales-Forecasting-of-Overrated-Products.git",
-    // previewLink: "https://huggingface.co/spaces/Thrishal/sales-overrated-product-forecasting"
+    previewLink: "https://huggingface.co/spaces/Thrishal/sales-overrated-product-forecasting"
   },
   {
     id: 2,
