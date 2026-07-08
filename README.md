@@ -1,2 +1,2 @@
-#You can view my portfolio at https://thrishalportfolio.vercel.app/
+#You can view my portfolio at https://dharshanoj-thrishal-portfolio.vercel.app/
 
