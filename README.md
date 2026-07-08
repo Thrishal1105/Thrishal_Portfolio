@@ -1,1 +1,2 @@
-![image alt](https://res.cloudinary.com/dalmvzwgj/image/upload/v1768218284/Screenshot_2026-01-12_164910_gucqbl.png)
+#You can view my portfolio at https://thrishalportfolio.vercel.app/
+
