@@ -9,7 +9,7 @@ export const Sidebar: React.FC = () => {
       <div className="relative mb-6 group cursor-pointer">
         <div className="w-48 h-48 rounded-full border-4 border-gray-600/50 p-1 shadow-lg transition-transform duration-500 group-hover:scale-105 group-hover:border-neon-green">
           <img
-            src="https://res.cloudinary.com/dalmvzwgj/image/upload/v1763918198/image_jzslk8.jpg"
+            src="https://res.cloudinary.com/dalmvzwgj/image/upload/v1783519401/Gemini_fmvcz1.jpg"
             alt="Profile"
             loading="eager"
             decoding="async"
@@ -28,7 +28,7 @@ export const Sidebar: React.FC = () => {
         </h1>
         <div className="inline-block px-3 py-1 rounded-full bg-white/5 border border-white/10">
           <p className="font-sans font-light text-gray-300 text-sm tracking-widest uppercase">
-            Web Developer
+            Software Engineer
           </p>
         </div>
       </div>

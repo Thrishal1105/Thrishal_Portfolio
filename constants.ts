@@ -2,17 +2,29 @@
 import { Project, Experience, Education, SkillCategory, Achievement } from './types';
 
 export const PROJECTS: Project[] = [
+
   {
     id: 1,
-    title: "Sales Forecasting of Overrated Products",
-    category: "Data Science",
-    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1768214264/Gemini_Generated_Image_grx3vugrx3vugrx3_nu6eaa.png",
-    description: "AI system that corrects biased ratings with NLP and improves demand forecasting via ML models in a Streamlit dashboard.",
-    githubLink: "https://github.com/Thrishal1105/Sales-Forecasting-of-Overrated-Products.git",
-    previewLink: "https://huggingface.co/spaces/Thrishal/sales-overrated-product-forecasting"
+    title: "RAG Model Offline",
+    category: "AI Application",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765953168/Gemini_Generated_Image_91g5ud91g5ud91g5_xchukt.png",
+    description: "A secure, offline Retrieval-Augmented Generation system for querying documents without internet dependency.",
+    githubLink: "https://github.com/Thrishal1105/RAG_Model_Offline.git"
   },
+
   {
     id: 2,
+    title: "SwiftBite Food Delivery",
+    category: "Full-Stack Development",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1783520814/swiftbite_thumbnail_1783520370126_nocq3z.jpg",
+    description: "A full-stack food delivery application featuring real-time order tracking, seamless payment integration, and an intuitive user interface for customers and restaurants.",
+    githubLink: "https://github.com/Thrishal1105/SwiftBite_Food_Delivery.git",
+    previewLink: "https://swiftbite-food.vercel.app/"
+  },
+
+
+  {
+    id: 3,
     title: "Bus Tracking System",
     category: "IOT",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763902026/Gemini_Generated_Image_5jv8dh5jv8dh5jv8_yt5lpc.png",
@@ -20,25 +32,39 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/Bus_Tracker.git",
     previewLink: "https://bus-tracker-deploy.vercel.app/"
   },
-  {
-    id: 3,
-    title: "RAG Model Offline",
-    category: "AI Application",
-    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765953168/Gemini_Generated_Image_91g5ud91g5ud91g5_xchukt.png",
-    description: "A secure, offline Retrieval-Augmented Generation system for querying documents without internet dependency.",
-    githubLink: "https://github.com/Thrishal1105/RAG_Model_Offline.git"
-  },
+
   {
     id: 4,
+    title: "Sales Forecasting of Overrated Products",
+    category: "Data Science",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1768214264/Gemini_Generated_Image_grx3vugrx3vugrx3_nu6eaa.png",
+    description: "AI system that corrects biased ratings with NLP and improves demand forecasting via ML models in a Streamlit dashboard.",
+    githubLink: "https://github.com/Thrishal1105/Sales-Forecasting-of-Overrated-Products.git",
+    previewLink: "https://huggingface.co/spaces/Thrishal/sales-overrated-product-forecasting"
+  },
+
+
+  {
+    id: 5,
+    title: "Skills Dev",
+    category: "Frontend Development",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1783522451/skills_dev_thumbnail_1783522136604_i04o08.jpg",
+    description: "An interactive skill development platform offering 11-12 week learning roadmaps for Front-end, Back-end, and AI applications. It features target tracking, time tips, and is deployed via an AWS S3 bucket for optimal performance.",
+    githubLink: "https://github.com/Thrishal1105/Skills_Dev.git",
+    previewLink: "https://skills-dev-care.vercel.app/"
+  },
+
+  {
+    id: 7,
     title: "Interior Design",
-    category: "Web Development",
+    category: "Frontend Development",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765012455/unnamed_cqewdc.jpg",
     description: "A modern, responsive interior design portfolio website featuring gallery showcases and service details.",
     githubLink: "https://github.com/Thrishal1105/Interior-Design",
     previewLink: "https://interior-aesthetics.vercel.app/"
   },
   {
-    id: 5,
+    id: 6,
     title: "AI-Post Generator",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904435/Gemini_Generated_Image_6okz46okz46okz46_eladzn.png",
@@ -47,7 +73,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://aistudio.google.com/apps/drive/1U5QmYg-Ax-DyDyty4Yd2pPanGkYV-Vo7?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
   {
-    id: 6,
+    id: 9,
     title: "Virtual Clothes Try On AI",
     category: "AI Application",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904434/Gemini_Generated_Image_919bvt919bvt919b_ivyklm.png",
@@ -56,7 +82,7 @@ export const PROJECTS: Project[] = [
     previewLink: "https://aistudio.google.com/apps/drive/1RMjtPqmScfw6euCCknWUyWPMdswNrwIM?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
   {
-    id: 7,
+    id: 8,
     title: "Stock Prediction",
     category: "Machine Learning",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904442/Gemini_Generated_Image_32il3z32il3z32il_vepboq.png",
@@ -64,7 +90,7 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/Stock-Prediction.git"
   },
   {
-    id: 8,
+    id: 10,
     title: "HR Data Analytics Dashboard",
     category: "Data Analysis",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904434/Gemini_Generated_Image_d7ehqxd7ehqxd7eh_lcz1dx.png",
@@ -72,9 +98,9 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/HR-Data-Analytics-Dashboard.git"
   },
   {
-    id: 9,
+    id: 11,
     title: "AI Automation",
-    category: "AI Application",
+    category: "Automation",
     image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765960852/OIP_roeyag.webp",
     description: "An intelligent automation agent built using n8n to streamline workflows and integrate AI capabilities into daily operations.",
     githubLink: "https://github.com/Thrishal1105/n8n_AI-Automation.git"
@@ -116,34 +142,34 @@ export const EDUCATION: Education[] = [
     id: 1,
     degree: "CompSci and Eng.",
     institution: "JPNCE",
-    period: "2026 ",
-    description: "Current enrolled and pursuing B.Tech Computer Science and Engineering at Jayaprakash Narayan College of Engineering, Mahabubnagar."
+    period: "2026",
+    description: "Completed B.Tech in Computer Science and Engineering at Jayaprakash Narayan College of Engineering, Mahabubnagar."
   },
   {
     id: 2,
     degree: "CompSci and Eng.",
     institution: "GITS",
-    period: "2023 ",
-    description: "Enrolled and completed Diploma Computer Science and Engineering at Gayathri Institute of Technology and Science, Wanaparthy."
+    period: "2023",
+    description: "Completed Diploma Computer Science and Engineering at Gayathri Institute of Technology and Science, Wanaparthy."
   }
 ];
 
 export const SKILLS_DATA: SkillCategory[] = [
   {
-    category: "Programming Languages",
-    skills: ["Python", "JavaScript", "HTML", "CSS"]
+    category: "Programming & Web",
+    skills: ["Python", "JavaScript", "React.js", "Node.js", "HTML", "CSS"]
   },
   {
-    category: "Frameworks / Libraries",
-    skills: ["Bootstrap", "React.js", "Flutter", "NumPy", "Pandas"]
+    category: "AI & Machine Learning",
+    skills: ["PyTorch", "LangChain", "LLMs", "Generative AI", "OpenCV", "Ollama"]
   },
   {
-    category: "Database",
-    skills: ["SQL"]
+    category: "Databases & Cloud",
+    skills: ["MongoDB", "ChromaDB", "SQL", "AWS", "CI/CD", "GitHub Actions"]
   },
   {
     category: "Developer Tools",
-    skills: ["Git/GitHub", "VS Code", "Google Colab", "Cursor", "MS Excel", "Power BI"]
+    skills: ["Git/GitHub", "VS Code", "Cursor", "Google Colab", "Postman"]
   }
 ];
 

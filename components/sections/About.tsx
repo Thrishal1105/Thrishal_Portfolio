@@ -1,28 +1,28 @@
 
 import React from 'react';
-import { Code, Database, Layout, Server } from 'lucide-react';
+import { Code, Database, Server, BrainCircuit, Cloud } from 'lucide-react';
 
 export const About: React.FC = () => {
   const services = [
     {
       icon: <Code size={32} className="text-neon-green" />,
-      title: "Web Development",
-      desc: "Building fast, responsive, and accessible websites with React and Tailwind."
+      title: "Full-Stack Development",
+      desc: "Building scalable, responsive, and robust applications using React.js and Node.js."
+    },
+    {
+      icon: <BrainCircuit size={32} className="text-neon-green" />,
+      title: "AI & Machine Learning",
+      desc: "Developing intelligent solutions including RAG systems, LLMs, and document intelligence models."
+    },
+    {
+      icon: <Cloud size={32} className="text-neon-green" />,
+      title: "Cloud Deployment",
+      desc: "Deploying applications and automating workflows using AWS, CI/CD pipelines, and GitHub Actions."
     },
     {
       icon: <Database size={32} className="text-neon-green" />,
-      title: "Data Analysis",
-      desc: "Transforming raw data into actionable business insights using Python & SQL."
-    },
-    {
-      icon: <Server size={32} className="text-neon-green" />,
-      title: "Backend Systems",
-      desc: "Architecting robust APIs and database structures with Node.js."
-    },
-    {
-      icon: <Layout size={32} className="text-neon-green" />,
-      title: "UI/UX Design",
-      desc: "Designing intuitive user interfaces that look great on any device."
+      title: "Backend & Databases",
+      desc: "Architecting robust APIs and integrating advanced databases like MongoDB and ChromaDB."
     }
   ];
 
@@ -33,13 +33,13 @@ export const About: React.FC = () => {
 
       <div className="mb-16">
         <h3 className="text-2xl font-bold mb-4 text-white">
-          I am a Web Developer & <span className="text-neon-green">Data Analyst</span>
+          I am a <span className="text-neon-green">Software Engineer</span>
         </h3>
         <p className="text-gray-400 leading-relaxed mb-6 font-sans">
-          I'm a final-year B.Tech student with a growing passion for data analysis and a strong foundation in Python and MySQL. I thrive on uncovering insights from data and transforming raw information into meaningful stories that drive smarter decisions.
+          I am a Computer Science Engineering graduate passionate about building intelligent software solutions using AI, Machine Learning, LLMs, and modern Full-Stack technologies. I enjoy developing scalable applications that solve real-world problems and create meaningful impact.
         </p>
         <p className="text-gray-400 leading-relaxed font-sans">
-          With hands-on experience in data cleaning, visualization, and basic statistical analysis, I'm eager to deepen my expertise in solving real-world problems through data. I've also explored how AI can streamline workflows and enhance analytical efficiency—fueling my curiosity to build scalable, impact-driven solutions.
+          I have built AI-powered applications such as RAG systems and machine learning models using Python, React, LangChain, and ChromaDB. I also bring strong experience in AWS, CI/CD, and GitHub Actions. I am eager to contribute to AI-driven innovation with a continuous learning mindset.
         </p>
       </div>
 
