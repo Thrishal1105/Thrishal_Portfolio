@@ -24,7 +24,7 @@ export const Sidebar: React.FC = () => {
       {/* Name & Title */}
       <div className="text-center mb-8">
         <h1 className="font-heading font-bold text-4xl text-white mb-2 tracking-tight">
-          Dharshanoj <br /> Thrishal
+          Dharshanoj <br /> Thrishall
         </h1>
         <div className="inline-block px-3 py-1 rounded-full bg-white/5 border border-white/10">
           <p className="font-sans font-light text-gray-300 text-sm tracking-widest uppercase">
