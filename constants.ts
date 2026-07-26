@@ -55,15 +55,6 @@ export const PROJECTS: Project[] = [
   },
 
   {
-    id: 7,
-    title: "Interior Design",
-    category: "Frontend Development",
-    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765012455/unnamed_cqewdc.jpg",
-    description: "A modern, responsive interior design portfolio website featuring gallery showcases and service details.",
-    githubLink: "https://github.com/Thrishal1105/Interior-Design",
-    previewLink: "https://interior-aesthetics.vercel.app/"
-  },
-  {
     id: 6,
     title: "AI-Post Generator",
     category: "AI Application",
@@ -72,6 +63,17 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/AI-Post-Generator.git",
     previewLink: "https://aistudio.google.com/apps/drive/1U5QmYg-Ax-DyDyty4Yd2pPanGkYV-Vo7?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
+
+  {
+    id: 7,
+    title: "Interior Design",
+    category: "Frontend Development",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1765012455/unnamed_cqewdc.jpg",
+    description: "A modern, responsive interior design portfolio website featuring gallery showcases and service details.",
+    githubLink: "https://github.com/Thrishal1105/Interior-Design",
+    previewLink: "https://interior-aesthetics.vercel.app/"
+  },
+
   {
     id: 9,
     title: "Virtual Clothes Try On AI",
