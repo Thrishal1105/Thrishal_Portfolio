@@ -75,6 +75,15 @@ export const PROJECTS: Project[] = [
   },
 
   {
+    id: 8,
+    title: "Stock Prediction",
+    category: "Machine Learning",
+    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904442/Gemini_Generated_Image_32il3z32il3z32il_vepboq.png",
+    description: "A machine learning model designed to analyze historical stock data and predict future market trends with high accuracy.",
+    githubLink: "https://github.com/Thrishal1105/Stock-Prediction.git"
+  },
+
+  {
     id: 9,
     title: "Virtual Clothes Try On AI",
     category: "AI Application",
@@ -83,14 +92,7 @@ export const PROJECTS: Project[] = [
     githubLink: "https://github.com/Thrishal1105/Virtual-Clothes-Try-On-AI.git",
     previewLink: "https://aistudio.google.com/apps/drive/1RMjtPqmScfw6euCCknWUyWPMdswNrwIM?fullscreenApplet=true&showPreview=true&showAssistant=true"
   },
-  {
-    id: 8,
-    title: "Stock Prediction",
-    category: "Machine Learning",
-    image: "https://res.cloudinary.com/dalmvzwgj/image/upload/v1763904442/Gemini_Generated_Image_32il3z32il3z32il_vepboq.png",
-    description: "A machine learning model designed to analyze historical stock data and predict future market trends with high accuracy.",
-    githubLink: "https://github.com/Thrishal1105/Stock-Prediction.git"
-  },
+
   {
     id: 10,
     title: "HR Data Analytics Dashboard",
