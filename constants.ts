@@ -160,8 +160,8 @@ export const EDUCATION: Education[] = [
 
 export const SKILLS_DATA: SkillCategory[] = [
   {
-    category: "Programming & Web",
-    skills: ["Python", "JavaScript", "React.js", "Node.js", "HTML", "CSS"]
+    category: "Programming Languages ",
+    skills: ["Python", "SQL", "JavaScript"]
   },
   {
     category: "AI & Machine Learning",
@@ -169,7 +169,7 @@ export const SKILLS_DATA: SkillCategory[] = [
   },
   {
     category: "Databases & Cloud",
-    skills: ["MongoDB", "ChromaDB", "SQL", "AWS", "CI/CD", "GitHub Actions"]
+    skills: ["MySQL", "MongoDB", "AWS", "ChromaDB", "CI/CD", "GitHub Actions"]
   },
   {
     category: "Developer Tools",
