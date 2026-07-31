@@ -165,7 +165,7 @@ export const SKILLS_DATA: SkillCategory[] = [
   },
   {
     category: "AI & Machine Learning",
-    skills: ["PyTorch", "LangChain", "LLMs", "Generative AI", "OpenCV", "Ollama"]
+    skills: ["LangChain", "LLMs", "Generative AI", "OpenCV", "Ollama"]
   },
   {
     category: "Databases & Cloud",
